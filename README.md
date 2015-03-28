@@ -4,7 +4,7 @@ Transforms your images into anaglyph-looking images.
 
 ### Example
 
-![Anaglyph Image Example](https://raw.github.com/fabsrc/jquery-anaglyph-image-effect/master/img/exmplmg-nglph.jpg)
+![Anaglyph Image Example](img/exmplmg-nglph.jpg)
 *Original Image by [Unsplash](https://unsplash.com)*
 
 ### Usage
