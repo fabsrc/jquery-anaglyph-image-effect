@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Anaglyph Image Effect</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style type="text/css">
+        body { margin: 0; padding: 0; font-family: Helvetica, Arial, sans-serif; font-weight: bold; }
+        figure { margin: 3em 0 3em 0; }
+        figcaption { border-top: 4px solid #000; margin-top: .5em; padding-top: .3em; }
+        .wrapper { margin: auto; max-width: 1200px; min-width: 320px; width: 65%; }
+        h1 { margin-top: .5em; padding-top: .3em; border-top: 6px solid #000; }
+        img { width: 100%; }
+        footer { font-size: 0.7em; margin-bottom: 3em; text-align: right; }
+        a { color: #000; }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="wrapper">
+            <header>
+        	   <h1>Anglyph Image Effect jQuery Plugin</h1>
+            </header>
+            <div>
+                <figure>
+                    <img src="img/exmplmg.jpg">
+                    <figcaption>Original Image</figcaption>
+                </figure>
+                <figure>
+                	<img class="anaglyphme" src="img/exmplmg.jpg">
+                    <figcaption>Anaglyph Image</figcaption>
+                </figure>
+            </div>
+            <footer>
+                Image by <a href="https://unsplash.com/" target="_blank">Unsplash</a>.
+            </footer>
+    	</div>
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="src/jquery.anaglyphimage.js"></script>
+        <script type="text/javascript">
+        $(function() {
+        	$('.anaglyphme').anaglyphImage({
+                intensity: 20,
+                quality: 0.9
+            });
+        });
+        </script>
+    </body>
+</html>
