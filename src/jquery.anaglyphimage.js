@@ -1,6 +1,5 @@
 /**
  *	jQuery Anaglyph Image Effect
- *	Version 1.0
  */
 
 (function($) {

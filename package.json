@@ -1,0 +1,26 @@
+{
+  "name": "jquery-anaglyph-image-effect",
+  "version": "1.0.1",
+  "description": "Transforms your images into anaglyph-looking images",
+  "main": "src/jquery.anaglyphimage.js",
+  "homepage": "https://github.com/fabsrc/jquery-anaglyph-image-effect#readme",
+  "author": "Fabian Schneider <fabbbbbi+git@googlemail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fabsrc/jquery-anaglyph-image-effect.git"
+  },
+  "bugs": {
+		"url": "https://github.com/fabsrc/jquery-anaglyph-image-effect/issues"
+  },
+  "dependencies": {
+    "jquery": "^1.7 || ^2.0 || ^3.1"
+  },
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "image",
+    "effect",
+    "anaglyph"
+  ],
+  "license": "MIT"
+}
